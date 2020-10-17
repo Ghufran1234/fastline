@@ -1,0 +1,46 @@
+@media (max-width:770px) {
+    .container {
+        padding-left: 1rem;
+    }
+
+    .title h1 {
+        font-size: 35px;
+    }
+
+    .fbox {
+        flex-basis: 100%;
+    }
+
+    .f-img {
+        flex-basis: 100%;
+
+    }
+
+    .f-img img {
+        width: 100%;
+    }
+
+    .single-range {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .single-range p {
+        font-size: 12px;
+    }
+
+    hr {
+        margin: 5px;
+    }
+
+    #contact {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+
+}

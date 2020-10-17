@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fugaz+One&family=Permanent+Marker&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #FFE928), url(/assets/pexels-joshua-welch-1624600.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header .navbar .container {
+    padding-top: 0px;
+}
+
+.container {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Fugaz One';
+    padding-top: 200px;
+    padding-left: 330px;
+}
+
+#ourservices {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title p {
+    margin: auto;
+    font-size: 20px;
+    color: #E2DC2C;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.fbox {
+    flex-basis: 50%;
+}
+
+.f-img {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.f-img img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.fbox h1 {
+    font-size: 30px;
+    font-family: 'Fugaz One';
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #E2DC2C;
+}
+
+.f-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.f-icon .fa {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #E2DC2C;
+    border: 1px solid #E2DC2C;
+}
+
+.f-text p {
+    padding: 0 20px;
+    text-align: initial;
+}
+
+#range {
+    width: 100%;
+    padding: 70px, 0;
+    background: #efefef;
+}
+
+.range-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.single-range {
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.single-range img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #FFE928);
+    opacity: 0;
+    transition: 1s;
+}
+
+.single-range:hover .overlay {
+    opacity: 1;
+
+}
+
+.range-desc {
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Fugaz One';
+}
+
+hr {
+    background: white;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+#scontact {
+    width: 100%;
+    padding: 70px, 0;
+    background: white;
+
+}
+
+#contact {
+    padding-left: 350px;
+}
+
+
+.form-control {
+    align-content: center;
+    font-family: 'Fugaz One';
+    width: 600px;
+
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+}
+
+#btn {
+    background: gray;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer h1 {
+    color: white;
+    font-family: 'Fugaz One';
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-family: 'Fugaz One';
+    text-align: center;
+}
